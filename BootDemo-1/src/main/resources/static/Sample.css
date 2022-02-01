@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+
+body {
+	border-bottom-color: aqua;
+	background-color: fuchsia;
+	background-image: url("emp.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: inherit;
+}
+
+table.center {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+table {
+	table-l border: thin;
+	border-top-left-radius: 20em;
+	border-top-right-radius: 30em;
+	border-bottom-left-radius: 10em;
+	border-bottom-right-radius: 10em;
+	table-layout: auto;
+	border-spacing: 10px;
+	border-collapse: separate;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+tr {
+	background-color: teal;
+}
+
+a {
+	background-color: red;
+	color: white;
+	padding: 1em 1.5em;
+	text-decoration: blink;
+	text-transform: inherit;
+}
+
+a:hover {
+	background-color: #555;
+}
+
+a:active {
+	background-color: black;
+}
+
+a:visited {
+	background-color: #ccc;
+}

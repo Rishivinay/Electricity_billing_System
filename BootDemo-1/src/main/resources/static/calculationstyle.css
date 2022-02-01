@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+.body{
+/* background-color: aqua; */
+font-size: 564;
+   background-color:rgb(22, 224, 174);
+   
+}
+
+
+
+
+#tid{
+        display: inline-table;
+  
+}

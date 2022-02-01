@@ -1,0 +1,23 @@
+body{
+ background-color: whitesmoke;
+ width: fit-content;
+}
+.heading{
+ color: darkblue;
+ text-align: center;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 43px;
+}
+.contents{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h3{
+ font-size: 28px;
+ color: darkslateblue;
+ font-style: normal;
+}
+p{
+ font-size: 20px;
+ font-weight: 200;
+}

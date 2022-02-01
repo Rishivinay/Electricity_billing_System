@@ -1,0 +1,12 @@
+*{
+       background-color:rgb(173, 216, 230);
+       padding: 5px;
+    }
+    
+   .details{
+            display: inline-table;
+    }
+
+    #amountprice{
+text-align: center;
+    }
