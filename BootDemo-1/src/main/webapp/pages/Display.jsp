@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- <style>
+<style>
 @import url("Sample.css");
-</style> -->
+</style> 
 <meta charset="ISO-8859-1">
 <title>Display Page</title>
 </head>
@@ -13,7 +13,7 @@
 	<%-- Welcome ${name} --%>
 
 
-	<table>
+	<table id="customers">
 
 		<tr>
 			<th>First Name </th>

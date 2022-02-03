@@ -4,17 +4,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- <style>
+<style>
 @import url("Sample.css"); 
-</style> -->
+</style> 
 <meta charset="ISO-8859-1">
 <title>View All</title>
 </head>
 <body>
 
-<table border="1">
+<table border="1" id="customers">
 <tr align="center">
-<th colspan="5"><h1>User Details</h1></th></tr>
+<th colspan="12"><h1>User Details</h1></th>
+</tr>
 <tr>
 <th>First Name </th>
 <th>UserName </th>
@@ -44,8 +45,8 @@
 <td>${user.gender}</td>
 
 <td>
-<a href="${pageContext.request.contextPath }/deleteuser/${user.id}">Delete</a>
-<a href="updateUser?id=${user.id}">Update</a>
+<button class="button"><a href="${pageContext.request.contextPath }/deleteuser/${user.id}">Delete</a></button>
+<button class="button"><a href="updateUser?id=${user.id}">Update</a></button>
 </td>
 </tr>
 </c:forEach>

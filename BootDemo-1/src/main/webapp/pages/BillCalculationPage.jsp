@@ -103,7 +103,7 @@ if (s==0) {
 
 
         } else {
-            document.getElementById("amountprice").innerHTML = `Your bill amount is Rs ${c}`;
+            document.getElementById("amountprice").innerHTML = `Your bill amount is Rs \${c}`;
             document.getElementById("amm").value = c;
         }
 

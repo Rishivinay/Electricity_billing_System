@@ -1,54 +1,29 @@
 @charset "ISO-8859-1";
 
-body {
-	border-bottom-color: aqua;
-	background-color: fuchsia;
-	background-image: url("emp.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: inherit;
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-table.center {
-	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
-table {
-	table-l border: thin;
-	border-top-left-radius: 20em;
-	border-top-right-radius: 30em;
-	border-bottom-left-radius: 10em;
-	border-bottom-right-radius: 10em;
-	table-layout: auto;
-	border-spacing: 10px;
-	border-collapse: separate;
-	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #FF5733;
+  color: white;
 }
 
-tr {
-	background-color: teal;
-}
-
-a {
-	background-color: red;
-	color: white;
-	padding: 1em 1.5em;
-	text-decoration: blink;
-	text-transform: inherit;
-}
-
-a:hover {
-	background-color: #555;
-}
-
-a:active {
-	background-color: black;
-}
-
-a:visited {
-	background-color: #ccc;
+#button{
+	background-color: white;
+	
 }

@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" href="logout.css">
 <title>Logout Page</title>
 </head>
 <body>
-<p>You are logout from this application..!!!</p>
+<h4><a href="start">Go to First Page</a></h4>
+ <p>You are successfully logout....!!</p>
 </body>
 </html>

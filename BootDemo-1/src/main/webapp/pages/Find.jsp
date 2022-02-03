@@ -9,11 +9,10 @@
 <meta charset="ISO-8859-1">
 <title>Find Page</title>
 </head>
-<body>
+<body style="background-color:rgba(255, 99, 71, 0.5);">
 ${ek}
 <form action="findUser" method="post">
-		<table cellpadding="10" cellspacing="10" border=10 align="center"
-			bgcolor="ctan">
+		<table cellpadding="10" cellspacing="10" border=10 align="center" style="background-color:MediumSeaGreen;">
 			<tr>
 				<td>userName</td>
 				<td><input type="text" name="userName"></td>
